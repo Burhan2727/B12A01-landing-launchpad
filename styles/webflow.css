@@ -5,3 +5,37 @@
   font-style: normal;
 }
 /* raleway font class end */
+
+/* shared styles start*/
+.primary-color{
+    color: #4E47FF;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    border: none;
+    padding: 18px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.btn-primary:hover{
+    background-color: #f0c410;
+    color: black;
+}
+/* shared styles end*/
+
+/* navbar style start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px 0;
+}
+.nav-logo{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+}
+/* navbar style end */
