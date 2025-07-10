@@ -87,7 +87,7 @@ nav{
     margin-bottom: 23px;
 }
 .action-sub-title{
-    color: #252432;
+    color: #8c8e98;
     font-size: 24px;
     margin-bottom: 23px;
 }
@@ -95,3 +95,33 @@ nav{
     border-radius: 35px;
 }
 /* action style end */
+
+/* productive user style start */
+.productive-users-section{
+    text-align: center;
+    background-color: #e5e7ff;
+    padding: 50px 0;
+    border-radius: 25px;
+    margin-bottom: 137px;
+}
+.productive-title{
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+}
+.productive-all-sub-titles{
+    display: flex;
+    justify-content: space-around;
+}
+.productive-sub-title-head{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+.productive-sub-title-para{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #8b8c9b;
+    margin-top: 0;
+}
+/* productive user style end */
