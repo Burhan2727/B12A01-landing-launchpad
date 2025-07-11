@@ -9,6 +9,8 @@
 /* shared styles start*/
 body{
     background-color: #f5f8ff;
+    margin: 0;
+    padding: 0;
 }
 .container{
     width: 1140px;
@@ -58,6 +60,9 @@ nav{
 /* navbar style end */
 
 /* banner style start */
+.banner-section{
+    padding: 158px 0;
+}
 .banner-content{
     width: 905px;
     margin: 0 auto;
@@ -263,3 +268,32 @@ nav{
     width: 100%;
 }
 /* touch section end */
+
+/* footer style start */
+footer{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 104px 0;
+}
+.footer-logo-text{
+    font-size: 100px;
+    margin-bottom: 8px;
+}
+.footer-description{
+    width: 531px;
+    color: #8987a1;
+    margin: 0 auto;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+footer a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+}
+/* footer style end */
