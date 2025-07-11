@@ -197,3 +197,31 @@ nav{
     color: #bcbcbd;
 }
 /* users feedback section end */
+
+/* focus section style start */
+.focus-section{
+    background-color: #ffff;
+    text-align: center;
+    padding: 71px 0;
+    border-radius: 14px;
+    margin-bottom: 90px;
+}
+.focus-head{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.focus-description{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #bcbcbd;
+    margin-bottom: 20px;
+}
+.focus-section a{
+    display: block;
+    margin-bottom: 20px;
+}
+.focus-section img{
+    border-radius: 48px;
+}
+/* focus section style end */
