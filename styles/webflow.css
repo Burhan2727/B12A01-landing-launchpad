@@ -225,3 +225,41 @@ nav{
     border-radius: 48px;
 }
 /* focus section style end */
+/* touch section start */
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0;
+}
+.touch-left-side{
+    width: 528px;
+    font-size: 67px;
+    font-weight: bold;
+}
+.touch-right-side{
+    width: 500px;
+}
+.touch-right-side label{
+    font-family: "Inter", sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.touch-right-side input[type="text"], .touch-right-side input[type="email"], .touch-right-side textarea{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    width: 87%;
+    padding: 20px 32px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+.touch-right-side textarea{
+    resize: none;
+}
+.touch-right-side input[type="submit"]{
+    width: 100%;
+}
+/* touch section end */
